@@ -12,8 +12,7 @@ A simple and responsive Currency Converter web application that allows users to 
 - Clean and responsive UI with dynamic dropdowns
 
 ## 📸 Preview
-
-![Currency Converter Screenshot](./Screenshot 2025-08-05 200103.png) <!-- Replace with actual screenshot if available -->
+[Currency Converter Screenshot]./Screenshot 2025-08-05 200103.png <!-- Replace with actual screenshot if available -->
 
 ## 🛠️ Tech Stack
 
