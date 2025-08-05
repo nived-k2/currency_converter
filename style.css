@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+}
+:root{
+    --background-color:#9cd0cb;
+    --inside:#fbfafe;
+    --text-color:#141009;
+
+}
+body{
+    background-color: var(--background-color);
+    color: var(--text-color);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    min-height: 100vh;
+    
+}
+.container{
+    background-color: var(--inside);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1) inset;
+  padding: 2rem;
+  border-radius: 1rem;
+  /* optional fixed width for layout consistency */
+  max-width: 90vw;
+}
+.select-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    margin-left:2rem ;
+    margin-right: 2rem;
+   
+}
+input[type="text"]{
+    min-height: 5vh;
+    height: 5vh;
+    width: 98%;
+    height: 2rem;
+    border-radius: 0.5rem;
+    border: none;
+    padding-left: 0.5rem;
+    font-size: 1.5rem;
+    color: var(--text-color);
+    border-radius: 2rem;
+    
+}
+/* .ri-arrow-up-down-line{
+   margin-top: 5%;
+} */
+select {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    color: var(--text-color)  ;
+   
+}
+.drop-down{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.message{
+    text-align: center;
+}
+button{
+    width: 50%;
+    height: 5rem;
+    padding: .3rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5rem;
+    margin-top: 2rem;
+    background-color: #a13346;
+    color: var(--background-color);
+    
+}
+button:hover{
+     background-color:black ;
+     color: #a13346;
+}
