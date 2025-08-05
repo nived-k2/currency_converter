@@ -21,6 +21,9 @@ body{
     min-height: 100vh;
     
 }
+h2{
+    font-weight: 300;
+}
 .container{
     background-color: var(--inside);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1) inset;
@@ -85,4 +88,11 @@ button{
 button:hover{
      background-color:black ;
      color: #a13346;
+}
+
+
+@media screen and (max-width:780px){
+    h2{
+        font-size: 1.1rem;
+    }
 }
