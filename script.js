@@ -47,9 +47,10 @@ button.addEventListener('click',(event)=>{
     const data=await response.json()
     const rate=data[fromcurrency][tocurrency];
      let message=document.querySelector('.message')
-   message.innerHTML=`${amountval} ${fromcurrency.toUpperCase()}=${rate*amountval} ${tocurrency.toUpperCase()}`
+   message.innerHTML=`${amountval} ${fromcurrency.toUpperCase()}=${(rate*amountval).toFixed(2)} ${tocurrency.toUpperCase()}`
    
    }
   
    echange()
+
 })
